@@ -89,7 +89,7 @@ export default function Dashboard() {
             <figure>
               <figcaption>Grad-CAM explanation</figcaption>
               <img
-                src={`https://chest-xray-triage-1.onrender.com/${result.gradcam_image_path}`}
+                src={`https://chest-xray-backend-sxit.onrender.com/${result.gradcam_image_path}`}
                 alt="gradcam"
               />
             </figure>
