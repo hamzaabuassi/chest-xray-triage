@@ -22,7 +22,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",   # Vite dev server default
-        "https://chest-xray-triage-1.onrender.com",   # fallback if you use CRA-style port
+        "http://127.0.0.1:8000",   # fallback if you use CRA-style port
         # "https://your-frontend-domain.vercel.app",  # add once deployed
     ],
     allow_credentials=True,

@@ -89,7 +89,7 @@ export default function Dashboard() {
             <figure>
               <figcaption>Grad-CAM explanation</figcaption>
               <img
-                src={`https://chest-xray-backend-sxit.onrender.com/${result.gradcam_image_path}`}
+                src={`http://127.0.0.1:8000/${result.gradcam_image_path}`}
                 alt="gradcam"
               />
             </figure>

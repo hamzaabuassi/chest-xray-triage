@@ -60,7 +60,7 @@ export default function History() {
               ×
             </button>
             <img
-              src={`https://chest-xray-backend-sxit.onrender.com${scan.gradcam_image_path}`}
+              src={`http://127.0.0.1:8000${scan.gradcam_image_path}`}
               alt="scan"
             />
             <div className="history-meta">
