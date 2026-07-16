@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://xray-backend-xxxx.onrender.com",
+  baseURL: "https://chest-xray-triage-1.onrender.com",
 });
 
 // Attach JWT token to every request automatically
